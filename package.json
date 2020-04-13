@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape-watch src/**/*test.js -p tap-spec"
+    "test": "tape src/**/*test.js | tap-spec"
   },
   "author": "Herb Caudill <herb@devresults.com>",
   "license": "ISC",
