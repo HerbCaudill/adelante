@@ -1,4 +1,4 @@
-﻿const { isEven } = require("./index.js")
+const { isEven } = require("./index.js")
 const test = require("tape")
 
 test("isEven", (t) => {
