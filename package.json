@@ -1,0 +1,22 @@
+{
+  "name": "adelante",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape-watch ./index.test.js -p tap-spec"
+  },
+  "author": "Herb Caudill <herb@devresults.com>",
+  "license": "ISC",
+  "dependencies": {
+    "faucet": "^0.0.1",
+    "tap-dot": "^2.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.2",
+    "tape-watch": "^2.3.0"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5"
+  }
+}
